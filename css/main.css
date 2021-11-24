@@ -116,7 +116,7 @@ text-align: center;
   background-color: #ef0505;
 }
 
-.info {
+.benefits {
   display: flex;
   list-style: none;
   width: 1110px;
@@ -127,12 +127,18 @@ padding-bottom: 120px;
 padding-top: 120px;
 
 }
-.info li {
+.benefits li {
   margin-right: 66px;
 }
-.springboard {
+.section-info {
   background-image: url(../images/rectangle.png);
   display: flex;
+}
+.info {
+  position: absolute;
+
+left: 638px;
+top: 415px;
 }
 .steps {
 padding-bottom: 160px;
@@ -176,10 +182,26 @@ margin-right: auto;
   display: flex;
 }
 
-.blok1 {
+.blok {
  
-  width: 430px;
+  display: flex;
  
+}
+.blok-text{
+  position: static;
+  margin-left: 168px;
+  left: 0px;
+padding-top: 125px;
+flex-direction: row;
+align-items: center;
+}
+
+.blok-text2 {
+  position: static;
+  margin-right: 168px;
+  padding-top: 125px;
+flex-direction: row;
+align-items: center;
 }
 .imgBlok {
   display: flex;
@@ -188,13 +210,7 @@ align-items: flex-start;
 padding: 0px;
 }
 
-.text {
-  position: static;
-width: 430px;
-height: 187px;
-left: 639px;
-top: 126px;
-}
+
 
 .package-container {
   /* width: 940px; */
