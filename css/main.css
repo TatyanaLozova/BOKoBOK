@@ -1,6 +1,10 @@
 
 
-
+a {
+  text-decoration:none;
+  cursor: pointer;
+  color: #333399;
+}
 
 body {
   
@@ -89,6 +93,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 16px 24px;
+cursor: pointer;
 }
 
 .section-abaut {
@@ -99,6 +104,16 @@ padding: 16px 24px;
 .subtitle {
 text-align: center;
 
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  margin-bottom: 28px;
+  margin-top: 28px;
+  background-color: #ef0505;
 }
 
 .info {
@@ -133,6 +148,7 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 padding: 16px 24px;
+cursor: pointer;
 }
 .reputation {
   background: #F5F9FF;
@@ -165,6 +181,99 @@ margin-right: auto;
   width: 430px;
  
 }
+.imgBlok {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+}
+
+.text {
+  position: static;
+width: 430px;
+height: 187px;
+left: 639px;
+top: 126px;
+}
+
+.package-container {
+  /* width: 940px; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+
+.package-item-basic:before {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(/images/Vector1.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  
+}
+
+.pa {
+  padding-right: 11px;
+  list-style: none;
+}
+.package-item:before {
+  content: "";
+  display: block;
+  width: 18px;
+  height: 14px;
+  background-image: url(/images/Vector.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  padding-right: 20px;
+ 
+}
+
+
+.package {
+border: 1px solid rgba(51, 51, 153, 0.2);
+box-sizing: border-box;
+border-radius: 23px;
+padding: 60px;
+margin: 0px 80px;
+}
+
+.footer {
+  position: absolute;
+width: 1440px;
+background: #F5F9FF;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+text-decoration:none;
+list-style: none;
+
+}
+.footer-container {
+width: 1112px;
+padding: 160px 164px 60px;
+display: flex;
+justify-content: space-between;
+}
+
+.footer-blok {
+display: flex;
+list-style: none;
+
+}
+
+.footer-blok li {
+  list-style: none;
+}
+.footer-social {
+  display: flex;
+}
+
 
   /* 
 
