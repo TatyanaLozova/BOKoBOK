@@ -13,7 +13,9 @@ font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 27px;
+color: #333399;
   }
+ 
 
 .container {
     margin-left: auto;
@@ -21,27 +23,17 @@ line-height: 27px;
     width: 1440px;
 }
 
- 
+
    .heder{
   display: flex;
-  width: 1440px;
+  width: 1110px;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
   padding: 40px, 165px, 40px, 165px;
   } 
      
-   /* .container-menu {
-    /* width: 100%; */
-    /* width: 1110px; */
-    /* margin-left: auto;
-    margin-right: auto;
-    padding: 0 15px;
-    text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-   
-  } */ 
+ 
 
   .menu-nav {
   display: flex;
@@ -62,7 +54,8 @@ line-height: 27px;
     font-size: 700;
     size: 52px;
     line-height: 60px;
-    font-style: normal;
+  
+   
     
   }
   .container-title {
@@ -70,7 +63,6 @@ line-height: 27px;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
-
 position: absolute;
 width: 624px;
 height: 314px;
@@ -96,15 +88,27 @@ padding: 16px 24px;
 cursor: pointer;
 }
 
-.section-abaut {
+.section-hero {
   background-image: url(../images/illustration.png);
   height: 678px;
 }
 
 .subtitle {
+  font-weight: 700;
+  font-weight: bold;
 text-align: center;
+font-size: 40px;
+line-height: 60px;
+
 
 }
+.text-subtitle {
+font-size: 18px;
+line-height: 27px;
+
+text-align: center;
+}
+
 
 .subtitle::after {
   content: "";
@@ -114,6 +118,11 @@ text-align: center;
   margin-bottom: 28px;
   margin-top: 28px;
   background-color: #ef0505;
+  
+}
+.subtitle-blok {
+  margin-top: 160px;
+margin-bottom: 120px;
 }
 
 .benefits {
@@ -123,8 +132,8 @@ text-align: center;
 justify-content: center;
 margin-left: auto;
 margin-right: auto;
-padding-bottom: 120px;
-padding-top: 120px;
+
+
 
 }
 .benefits li {
@@ -171,8 +180,7 @@ padding: 40px;
 }
 
 .section-marketing {
-  padding-top: 160px;
-  padding-bottom: 160px;
+ 
   width: 1068px;
   margin-left: auto;
 margin-right: auto;
