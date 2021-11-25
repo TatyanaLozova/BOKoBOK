@@ -9,6 +9,8 @@
   <link rel="stylesheet" href="./css/main.css" />
   <link rel="stylesheet" href="./css/normalize.css" />
   <link rel="stylesheet" href="./font/stylesheet.css" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     
 </head>
 <body>
@@ -84,7 +86,7 @@
   </ul>       
         </section>
         <section class="section-info">
-          <div>
+          <div class="info-box">
             <img src="./images/illustration0.png" alt="Logo" width="">
             
             <h2> <span class="accent"> БОК о БОК </span> — удобный трамплин <br> для роста вашего бизнеса</h2>
@@ -92,7 +94,7 @@
         </section>
         <section class="steps">
           <h2 class="subtitle">3 шага для последовательного продвижения</h2>
-          <ul>
+          <ul  class="steps-list">
             <li>
               <h3>Создайте профиль компании</h3>
               <p>Функционал платформы позволяет не только подробно рассказывать о своем торговом предложении, 
@@ -103,12 +105,13 @@
               <p>Так как ресурс БОК о БОК аккумулирует отзывы о любом потребительском опыте в одном месте, 
                 у вас есть уникальная возможность работать с мнением своей аудитории, не выходя за пределы площадки</p>
             </li>
+            <li>
             <h3>Используйте преимущество рекламы</h3>
               <p>Каждый день ресурс БОК о БОК собирает множество пользователей, которые хотят узнать больше о том или ином продукте.
                  Распространение информации о себе в такой среде помогает бизнесу быстро привлекать новых клиентов</p>
             </li>
           </ul>
-          <button class="btn">Создать профиль компании</button>
+          <button class="button">Создать профиль компании</button>
 
         </section>
         <section class="cards">
@@ -252,7 +255,35 @@
           
           <div class="container-form">
             <div> <img src="./images/illustration4.png"></div>
-            <div></div>
+            <div class="form">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Ваше имя</label>
+                  <input type="email"
+                   placeholder="Введите ваше имя" 
+                   class="form-control"
+                    id="exampleInputEmail1"
+                     aria-describedby="emailHelp">
+                  <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                </div>
+                <div class="mb-3">
+                  <label  class="form-label">Ваш Telegram</label>
+                  <input type="password" placeholder="@nickname" class="form-control" >
+                </div>
+                <div class="mb-3">
+                  <label  class="form-label">Ваша электронная почта</label>
+                  <input type="password" placeholder="you@domain.com" class="form-control" >
+                </div>
+                <div class="mb-3">
+                  <label  class="form-label">Ваш вопрос</label>
+                  <input type="password" placeholder="Сформулируйте ваш вопрос" class="form-control" >
+                </div>
+               
+                <button type="submit" class="btn btn-primary">Отправить</button>
+
+                <p>Нажатием на кнопку вы даете согласие на <br> <span class="accent">обработку персональных данных</span></p>
+              </form>
+            </div>
           </div>         
              
 
