@@ -36,7 +36,7 @@
             <!-- <img src="./images/illustration.png" alt="illustration"> -->
             <h1 class="title">Станьте <span class="accent">ближе</span>  к своим <br> клиентам</h1>
             <p>Мы помогаем бизнесу получать лояльных клиентов и <br> увеличивать объемы продаж</p>
-            <button class="button">Разместить информацию о компании</button>
+            <button class="btn">Разместить информацию о компании</button>
           </div>
           </div>
           
@@ -89,28 +89,31 @@
           <div class="info-box">
             <img src="./images/illustration0.png" alt="Logo" width="">
             
-            <h2> <span class="accent"> БОК о БОК </span> — удобный трамплин <br> для роста вашего бизнеса</h2>
+            <h2 class="info-text"> <span class="accent"> БОК о БОК </span> — удобный трамплин <br> для роста вашего бизнеса</h2>
           </div>
         </section>
         <section class="steps">
           <h2 class="subtitle">3 шага для последовательного продвижения</h2>
-          <ul  class="steps-list">
-            <li>
-              <h3>Создайте профиль компании</h3>
-              <p>Функционал платформы позволяет не только подробно рассказывать о своем торговом предложении, 
-                но и обрабатывать запросы потенциальных клиентов. Создание профиля абсолютно бесплатно и не требует больших временных затрат</p>
-            </li>
-            <li>
-              <h3>Работайте с мнениями аудитории</h3>
-              <p>Так как ресурс БОК о БОК аккумулирует отзывы о любом потребительском опыте в одном месте, 
-                у вас есть уникальная возможность работать с мнением своей аудитории, не выходя за пределы площадки</p>
-            </li>
-            <li>
-            <h3>Используйте преимущество рекламы</h3>
-              <p>Каждый день ресурс БОК о БОК собирает множество пользователей, которые хотят узнать больше о том или ином продукте.
-                 Распространение информации о себе в такой среде помогает бизнесу быстро привлекать новых клиентов</p>
-            </li>
-          </ul>
+          <div class="steps-box">
+            <ul  class="steps-list">
+              <li class="steps-list-item">
+                <h3><span class="number">01</span> Создайте профиль компании</h3>
+                <p>Функционал платформы позволяет не только подробно рассказывать о своем торговом предложении, 
+                  но и обрабатывать запросы потенциальных клиентов. Создание профиля абсолютно бесплатно и не требует больших временных затрат</p>
+              </li>
+              <li class="steps-list-item">
+                <h3><span class="number">02</span>Работайте с мнениями аудитории</h3>
+                <p>Так как ресурс БОК о БОК аккумулирует отзывы о любом потребительском опыте в одном месте, 
+                  у вас есть уникальная возможность работать с мнением своей аудитории, не выходя за пределы площадки</p>
+              </li>
+              <li class="steps-list-item">
+              <h3><span class="number">03</span>Используйте преимущество рекламы</h3>
+                <p>Каждый день ресурс БОК о БОК собирает множество пользователей, которые хотят узнать больше о том или ином продукте.
+                   Распространение информации о себе в такой среде помогает бизнесу быстро привлекать новых клиентов</p>
+              </li>
+            </ul>
+          </div>
+          
           <button class="button">Создать профиль компании</button>
 
         </section>
@@ -217,6 +220,7 @@
           
 
             <div class="package-container">
+              
               <ul class="package">
                 <h2>Базовый</h2>
               <p> <span class="accent">$0</span>/месяц*</p>
@@ -232,7 +236,7 @@
               
               <ul class="package">
                 <h2>Партнерский</h2>
-              <p> <span class="accent">$50</span>/месяц*</p>
+              <p> <span class="accent" >$50</span>/месяц*</p>
               <ul class="pa">
                 <li class="package-item">Коммуникация от лица компании</li>
                 <li class="package-item">Модерация клиентских отзывов</li>
@@ -317,17 +321,17 @@
               
               <div class="footer-blok">
                 <ul class="footer-social">
-                  <li><a href="#">
+                  <li><a class="social-flex" href="#"></a>
                     <svg class="icon" width="13"  height="24">
-                      <use href="./images/sprite.svg#icon-fs" ></use>
+                      <use  href="./images/sprite.svg#icon-fs" ></use>
                     </svg>
                   </li>
-                  <li><a href="#"></a> 
+                  <li ><a class="social-flex" href="#"></a> 
                     <svg class="icon" width="22"  height="22">
                       <use href="./images/sprite.svg#icon-instagram" ></use>
                     </svg>
                   </li>
-                  <li> <a href="#"></a>
+                  <li > <a class="social-flex" href="#"></a>
                     <svg class="icon" width="19"  height="19">
                       <use href="./images/sprite.svg#icon-link" ></use>
                     </svg>
@@ -337,10 +341,12 @@
               </div>
                 
         </div>
-        <ul>
+        
+        <ul class="foot" > 
           <li>Правила использования</li>
           <li>Политика конфиденциальности</li>
         </ul>
+      
 
         </footer>
 
